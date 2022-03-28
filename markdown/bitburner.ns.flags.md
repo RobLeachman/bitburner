@@ -65,4 +65,5 @@ export async function main(ns) {
 // [home ~/]> run example.script --help
 // {"_":[],"delay":0,"server":"foodnstuff","exclude":[],"help":true}
 ```
-
+Specific values are easily accessed:
+```ns.tprint(data.help);```
